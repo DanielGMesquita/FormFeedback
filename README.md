@@ -1,5 +1,5 @@
 <h1>Formulário de Feedback</h1>
-<p>Formulário de feedback feito do zero a partir de modelo do figma</p>
+<p>Formulário de feedback feito do zero a partir de modelo do figma. Ainda em construção.</p>
 <hr>
 <h1>Tecnologias utilizadas</h1>
 <p>HTML e CSS</p>
