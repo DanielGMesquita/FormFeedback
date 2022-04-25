@@ -1,0 +1,95 @@
+/* font-family: 'Staatliches', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #BFD7E4;
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+}
+
+body::before{
+    content: "";
+    background: #293241;
+    display: block;
+    position: absolute;
+    height: 465px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.page{
+    width: 750px;
+    margin: auto;
+}
+
+header{
+    margin-top: 107px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    text-align: center;
+    align-self: center;
+}
+
+header h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+header p{
+    font-size: 16px;
+    line-height: 24px;
+    height: 46px;
+}
+
+header #top{
+    margin:auto;
+    height: 193px;
+}
+
+header legend{
+    margin-top: 32px;
+    display: flex;
+    height: 133px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 275px;
+    background: #F67669;
+    border-radius:20px 20px 0 0;
+    border: 0;
+    font-family: 'Staatliches', cursive;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+form{
+    background: #FFFFFF;
+    max-height: fit-content;
+    border-radius: 0 0 20px 20px;
+    padding: 64px;
+}
+
+fieldset{
+    border: none;
+}
+
+.fieldset-settings{
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset legend{
+    font-family: 'Staatliches', cursive;
+    font-size: 24px;
+    line-height: 34px;
+    color: #253B51;
+    width: 100%;
+}
+
