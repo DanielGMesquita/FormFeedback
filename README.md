@@ -5,12 +5,12 @@
 <p>HTML e CSS</p>
 <hr>
 <h1>Técnicas utilizadas</h1>
-:bulb: semântica HTML
-:bulb: checkbox
-:bulb: flexbox
-:bulb: formulários e diferentes inputs
-:bulb: padding e margin
-:bulb: atributos de inputs
+:bulb: semântica HTML<br>
+:bulb: checkbox<br>
+:bulb: flexbox<br>
+:bulb: formulários e diferentes inputs<br>
+:bulb: padding e margin<br>
+:bulb: atributos de inputs<br>
 <hr>
 <h1>Oportunidades de melhoria</h1>
 <ul>
