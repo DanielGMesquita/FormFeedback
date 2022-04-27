@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Feedback</title>
     <link rel="stylesheet" href="form.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="page">
@@ -34,13 +34,15 @@
             <form id="feedback">
                 <fieldset>
                     <div class="fieldset-settings">
-                        <div class="input-settings">
-                            <label for="name">Nome</label>
-                            <input type="text" id="name" required>
-                        </div>
-                        <div class="input-settings">
-                            <label for="lastname">Sobrenome</label>
-                            <input type="text" id="lastname" required>
+                        <div class="name-settings">
+                            <div class="input-settings">
+                                <label for="name">Nome</label>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div class="input-settings">
+                                <label for="lastname">Sobrenome</label>
+                                <input type="text" id="lastname" required>
+                            </div>
                         </div>
                         <div class="input-settings">
                             <label for="email">Email <span>(digite um email válido)</span></label>
@@ -62,8 +64,8 @@
                             </select>
                         </div>
                         <div class="input-settings">
-                            <label for="review">Feedback sobre o mentor</label>
-                            <input type="textarea" id="review">
+                            <label for="review">Feedback sobre o mentor <span>(máximo 200 caracteres)</span></label>
+                            <textarea id="review" maxlength="200"></textarea>
                         </div>
                         <div class="checkbox-settings">
                             <input type="checkbox" id="questions">
@@ -74,17 +76,19 @@
                 <fieldset>
                     <div class="fieldset-settings">
                         <legend>Agendando próxima mentoria</legend>
-                        <div class="input-settings">
-                            <label for="date">Data <span>(DD/MM/AA)</span></label>
-                            <input type="date" id="date">
-                        </div>
-                        <div class="input-settings">
-                            <label for="start">Das</label>
-                            <input type="time" id="start">
-                        </div>
-                        <div class="input-settings">
-                            <label for="end">Até</label>
-                            <input type="time" id="end">
+                        <div class="date-settings">
+                            <div class="input-settings">
+                                <label for="date">Data <span>(DD/MM/AA)</span></label>
+                                <input type="date" id="date" required>
+                            </div>
+                            <div class="input-settings">
+                                <label for="start">Das</label>
+                                <input type="time" id="start" required>
+                            </div>
+                            <div class="input-settings">
+                                <label for="end">Até</label>
+                                <input type="time" id="end" required>
+                            </div>
                         </div>
                     </div>
                 </fieldset>

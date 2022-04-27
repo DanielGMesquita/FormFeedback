@@ -11,3 +11,11 @@
 :bulb: formulários e diferentes inputs
 :bulb: padding e margin
 :bulb: atributos de inputs
+<hr>
+<h1>Oportunidades de melhoria</h1>
+<ul>
+    <li>Mensagem de agradecimento ao finalizar o preenchimento</li>
+    <li>Gerar base de dados de feedbacks</li>
+    <li>Tornar responsivo</li>
+    <li>Agenda de horários e datas disponíveis</li>
+</ul>
